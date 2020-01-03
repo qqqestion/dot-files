@@ -1,5 +1,5 @@
 # Path to your oh-my-zsh installation.
-export ZSH="/Users/sminc/.oh-my-zsh"
+export ZSH="~/.oh-my-zsh"
 
 # Warning: Failed to set locale category LC_COLLATE to en_CH.
 #
@@ -19,17 +19,21 @@ plugins=(
 
 source $ZSH/oh-my-zsh.sh
 
+export DOT_FILES='~/GitHub/dot-files'
+
 # zsh aliases
 alias ll="ls -la"
-alias zshc="vim ~/GitHub/.zshrc"
-alias vimc="vim ~/GitHub/.vimrc"
-alias zshs="source ~/GitHub/.zshrc"
-alias vims="source ~/GitHub/.vimrc"
+alias zshc="vim $DOT_FILES/.zshrc"
+alias vimc="vim $DOT_FILES/.vimrc"
+alias zshs="source $DOT_FILES/.zshrc"
+alias vims="source $DOT_FILES/.vimrc"
 alias c="clang++ -std=c++17 -o app"
 alias rmdir="rm -fr"
 alias md='mkdir'
 
 # git aliases
+alias gadd="git add"
+alias gcmmt="git commit"
 alias gpsh="git push"
 alias gpll="git pull"
 alias gs="git status"

@@ -32,12 +32,12 @@ alias rmdir="rm -fr"
 alias md='mkdir'
 
 # git aliases
-alias gadd="git add"
-alias gcmmt="git commit"
-alias gpsh="git push"
-alias gpll="git pull"
+alias gad="git add"
+alias gct="git commit -m"
+alias gph="git push"
+alias gpl="git pull"
 alias gs="git status"
-alias gcln="git clone"
+alias gcn="git clone"
 
 # mysql
 alias mysql="/usr/local/mysql/bin/mysql -u root -p"

@@ -1,5 +1,6 @@
 # Path to your oh-my-zsh installation.
-export ZSH="~/.oh-my-zsh"
+# export ZSH="~/.oh-my-zsh"
+ZSH=$HOME/.oh-my-zsh
 
 # Warning: Failed to set locale category LC_COLLATE to en_CH.
 #
@@ -9,7 +10,7 @@ export LC_ALL=en_US.UTF-8
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
-ZSH_THEME="agnoster"
+ZSH_THEME='agnoster'
 
 plugins=(
 	git
@@ -19,7 +20,7 @@ plugins=(
 
 source $ZSH/oh-my-zsh.sh
 
-export DOT_FILES='~/GitHub/dot-files'
+export DOT_FILES='~/GitHub/dot_files'
 
 # zsh aliases
 alias ll="ls -la"
@@ -32,12 +33,13 @@ alias rmdir="rm -fr"
 alias md='mkdir'
 
 # git aliases
-alias gad="git add"
+alias ga="git add"
 alias gct="git commit -m"
 alias gph="git push"
 alias gpl="git pull"
 alias gs="git status"
-alias gcn="git clone"
+alias gc="git clone"
+alias gd="git diff"
 
 # mysql
 alias mysql="/usr/local/mysql/bin/mysql -u root -p"

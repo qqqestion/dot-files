@@ -46,8 +46,8 @@ let g:netwn_list_hide=',\(^\|\s\s\)\zs\.\S\+'
 
 set number relativenumber
 set nu rnu 
-imap <C-i> <esc>0i
-imap <C-a> <esc>$i<right>
+imap <C-h> <esc>0i
+imap <C-l> <esc>$i<right>
 imap <C-d> <esc>o
 
 set backspace=indent,eol,start

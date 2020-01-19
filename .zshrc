@@ -35,8 +35,8 @@ alias md='mkdir'
 # git aliases
 alias ga="git add"
 alias gct="git commit -m"
-alias gph="git push"
-alias gpl="git pull"
+alias gpush="git push"
+alias gpull="git pull"
 alias gs="git status"
 alias gc="git clone"
 alias gd="git diff"

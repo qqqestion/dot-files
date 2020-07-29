@@ -50,6 +50,6 @@ alias mysql="/usr/local/mysql/bin/mysql -u root -p"
 
 # programming aliases
 alias c="clang++ -std=c++17 -o app"
-alias python="python3.8"
+# alias python="python3.8"
 
 prompt_context(){}

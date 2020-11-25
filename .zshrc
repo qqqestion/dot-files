@@ -34,22 +34,26 @@ alias zshs="source $DOT_FILES/.zshrc"
 alias vims="source $DOT_FILES/.vimrc"
 alias rmdir="rm -fr"
 alias md='mkdir'
+alias showusage="ps -Ar -o \"pid %cpu %mem user comm\""
 
 # git aliases
 alias ga="git add"
-alias gct="git commit -m"
+alias gctm="git commit -m"
+alias gct="git commit"
 alias gpush="git push"
 alias gpull="git pull"
 alias gs="git status"
 alias gc="git clone"
 alias gd="git diff"
+alias gb="git branch"
+alias gcout="git checkout"
 
 # mysql
 alias mysql="/usr/local/mysql/bin/mysql -u root -p"
+
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 # programming aliases
 alias c="clang++ -std=c++17 -o app"
-# alias python="python3.8"
 
 prompt_context(){}

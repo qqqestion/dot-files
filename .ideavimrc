@@ -27,11 +27,12 @@ map Q gq
 " Find more examples here: https://jb.gg/share-ideavimrc
 
 map <C-s> <Esc>
-map <C-e> <C-n>
+map <A-s> a
+map <A-e> <C-n>
 imap <C-s> <Esc>
-imap <C-e> <C-n>
+imap <A-e> <C-n>
 nnoremap <C-s> <Esc>
-nnoremap <C-e> <C-n>
+nnoremap <A-e> <C-n>
 
 nnoremap <C-l> :action LeaderAction<cr>
 imap <C-l> :action LeaderAction<cr>

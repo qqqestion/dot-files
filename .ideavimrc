@@ -28,11 +28,11 @@ map Q gq
 
 map <C-s> <Esc>
 map <A-s> a
-map <A-e> <C-n>
+map <M-e> <C-n>
 imap <C-s> <Esc>
-imap <A-e> <C-n>
+imap <M-e> <C-n>
 nnoremap <C-s> <Esc>
-nnoremap <A-e> <C-n>
+nnoremap <M-e> <C-n>
 
 nnoremap <C-l> :action LeaderAction<cr>
 imap <C-l> :action LeaderAction<cr>

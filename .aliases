@@ -1,0 +1,7 @@
+YNDX_ALIASES=~/.yndx_aliases
+if [ -f "$YNDX_ALIASES" ]; then
+	source $YNDX_ALIASES
+fi
+
+alias ll='ls -la'
+

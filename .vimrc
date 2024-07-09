@@ -1,5 +1,5 @@
 " vim: comment
-set number 
+set relativenumber 
 set nu 
 
 set backspace=indent,eol,start
@@ -36,7 +36,7 @@ nmap <C-l> <esc>$<right>
 " noremap <silent> <C-s>          :update<CR>
 " vnoremap <silent> <C-s>         <C-C>:update<CR>
 " inoremap <silent> <C-s>         <C-O>:update<CR>
-nmap <C-s> :w<CR>
-imap <C-s> <Esc>:w<CR>a
+nmap <C-s> <Esc>
+imap <C-s> <Esc>
 
 

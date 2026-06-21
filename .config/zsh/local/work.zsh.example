@@ -1,0 +1,6 @@
+# Copy to .config/zsh/local/work.zsh on a work machine.
+# This file loads after personal.zsh and can override its env or aliases.
+# Keep real secrets, private env values, and work aliases out of git.
+
+export WORK_PROFILE='default'
+alias work_example='print -r -- "work zsh config is loaded"'

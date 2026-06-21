@@ -1,0 +1,5 @@
+# Copy to .config/zsh/local/personal.zsh for personal machine-specific settings.
+# Keep real secrets, private env values, and personal aliases out of git.
+
+export EDITOR='vim'
+alias personal_example='print -r -- "personal zsh config is loaded"'

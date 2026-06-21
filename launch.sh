@@ -400,6 +400,7 @@ main() {
 
 	link_dotfile "$repo_dir/.zshrc" "$HOME/.zshrc"
 	link_dotfile "$repo_dir/.tmux.conf" "$HOME/.tmux.conf"
+	link_dotfile "$repo_dir/.config/ghostty/config" "$config_home/ghostty/config"
 	link_dotfile "$repo_dir/.config/nvim" "$config_home/nvim"
 }
 

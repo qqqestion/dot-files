@@ -15,6 +15,7 @@ them:
 
 - `~/.zshrc` -> this repo's `.zshrc`
 - `~/.tmux.conf` -> this repo's `.tmux.conf`
+- `${XDG_CONFIG_HOME:-~/.config}/ghostty/config` -> this repo's `.config/ghostty/config`
 - `${XDG_CONFIG_HOME:-~/.config}/nvim` -> this repo's `.config/nvim`
 
 Because these are symlinks, edits through either the home path or the repository
